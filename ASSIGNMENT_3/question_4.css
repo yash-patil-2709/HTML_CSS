@@ -1,0 +1,171 @@
+body{
+  color:#000;
+  text-align: center;
+}
+
+#content{
+  display:grid;
+  grid-template-columns: repeat(6,1fr);
+  /*grid-auto-rows:minmax(200px,auto);*/
+  grid-template-rows: repeat(12,minmax(150px,auto));
+  /*max-width:1000px;*/
+  /*margin: 0 auto;*/
+  grid-gap: 10px 10px;
+
+}
+
+#content div{
+  /*background-color: #1167b1;*/
+  /*padding: 30px;*/
+  /*margin:20px;*/
+}
+
+#content div:nth-child(even){
+  /*background: #777;*/
+}
+.one{
+  grid-column: 1/7;
+  grid-row: 1/1;
+
+  width:100%;
+  z-index:1;
+  background-color: #1167b1;
+  padding:20px;
+  text-align: center;
+  position: fixed;
+  top:0;
+  left:0;
+}
+.two{
+  position: relative;
+  grid-column: 1/7;
+  grid-row:2/7;
+}
+
+.three{
+  grid-column: 1/3;
+  grid-row: 7/10;
+  background-color: #1167b1;
+}
+
+.four{
+  grid-column: 3/5;
+  grid-row: 7/10;
+  background-color: #1167b1;
+}
+
+.five{
+  grid-column: 5/7;
+  grid-row: 7/10;
+  background-color: #1167b1;
+}
+
+.six{
+  grid-column: 1/2;
+  grid-row: 10/12;
+}
+
+.seven{
+  grid-column: 2/3;
+  grid-row: 10/12;
+}
+
+.eight{
+  grid-column: 3/4;
+  grid-row: 10/12;
+}
+
+.nine{
+  grid-column: 4/5;
+  grid-row: 10/12;
+}
+
+.ten{
+  grid-column: 5/6;
+  grid-row: 10/12;
+}
+
+.eleven{
+  grid-column: 6/7;
+  grid-row: 10/12;
+}
+
+.twelve{
+  grid-column: 1/7;
+  grid-row: 12/13;
+  color: black;
+  background: grey;
+  font-weight: bold;
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+h1{
+  border:10px solid black;
+  padding:6px 12px;
+  display:inline-block;
+  border-radius: 20px;
+}
+
+img{
+  width:100%;
+  height: 100%;
+}
+
+.two .welcome{
+  color:white;
+  opacity: 0.5;
+  position: absolute;
+  padding:30px;
+  left:0px;
+  top:0;
+}
+
+.two h2{
+  font-size:25px;
+}
+
+.two h2 span{
+  font-size: 1.2em;
+}
+
+.price{
+  list-style-type: disc;
+}
+
+.q {
+  text-decoration: underline;
+  font-size: 30px;
+  color:black;
+  text-align:center;
+  padding-bottom: 10px;
+}
+
+.s{
+  text-decoration: underline;
+  font-size: 30px;
+  color:white;
+  text-align:center;
+  padding-bottom: 10px;
+}
+
+
+.y{
+  font-size: 25px;
+  padding-bottom: 50px;
+  color:white;
+  text-align:left;
+}
+
+.t{
+    font-size: 25px;
+    padding-bottom: 50px;
+    color:white;
+    text-align:center;
+    font-family: cursive;
+}
+
+.price1{
+  list-style-type: none;
+  text-align: center;
+}

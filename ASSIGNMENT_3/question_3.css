@@ -1,0 +1,107 @@
+.sec{
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.sec h2{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid cyan;
+  border-radius: 30px;
+  background-color: darkcyan;
+
+}
+  .parallax1{
+  min-height: 1000px;
+  background-image: url("p3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.parallax2{
+  min-height: 1000px;
+  background-image: url("p2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+header{
+  width:100%;
+  z-index:1;
+  background-color:lightgrey;
+  padding:10px;
+  text-align: center;
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+header h1{
+  border:10px solid black;
+  padding:6px 12px;
+  display:inline-block;
+  border-radius: 20px;
+}
+
+body{
+  background-color: lightgrey;
+}
+
+.para1{
+  padding:6px 12px;
+  background-color: #b5dfcf;
+  text-align: center;
+  border: 5px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10PX;
+  margin-top: 10px;
+}
+
+.para2{
+  padding:6px 12px;
+  background-color: #3bbdc2;
+  text-align: center;
+  border: 5px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.para3{
+  padding:6px 12px;
+  background-color: #2093c3;
+  text-align: center;
+  border: 5px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.para4{
+  padding:6px 12px;
+  background-color: #219f9c;
+  text-align: center;
+  border: 5px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h2{
+  text-align: center;
+}

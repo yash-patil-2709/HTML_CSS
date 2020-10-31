@@ -1,0 +1,8 @@
+.wert, th, td{
+  border:1px solid green;
+  font-family: cursive;
+}
+
+th{
+  background-color: green;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <link rel="stylesheet" href="question_2.css">
+    <meta charset="utf-8">
+    <title>LOCKDOWN FORM</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function update(val){
+        document.getElementById("in").innerHTML=val;
+      }
+    </script>
+
+    <h1 align="center">LOCKDOWN EXPERIENCE FORM</h1>
+    <form class="one" action="index.html" method="post">
+      <table ALIGN="CENTER">
+
+        <tr>
+          <td>Name</td>
+          <td><input type="text" name="customerName" id="customerName" placeholder="Enter your name" pattern="[a-zA-Z\s]+" required></td>
+        </tr>
+
+        <tr>
+          <td>Gender</td>
+          <td><input type="radio" name="gender">Male <input type="radio" name="gender">Female</td>
+        </tr>
+
+        <tr>
+          <td>Email ID</TD>
+          <td><input type="email" name="customerEmail" placeholder="email-id" required></td>
+        </tr>
+
+        <tr>
+          <td>Mobile Number</td>
+          <td><input type="tel" name="customerMobileNumber" pattern="[7-9]{1}[0-9]{9}" placeholder="Enter your mobile number" required></td>
+        </tr>
+
+        <tr>
+          <td>Your Location during lockdown</td>
+          <td><input type="radio" name="location" value="Hometown">HOMETOWN<br>
+              <input type="radio" name="location" value="Native place">NATIVE PLACE<br>
+              <input type="radio" name="location" value="Other">OTHER
+            </td>
+        </tr>
+
+        <tr>
+          <td>How good was your lockdown (On scale of 1 to 10)</td>
+          <td><input type="range" name="Count" min="1" max="10" value="1" step="1" id="val" onchange="update(this.value);" required></td>
+          <td><p id="in"></td>
+        </tr>
+
+        <tr>
+          <td>Experience</td>
+          <td>
+            <select id="experience" name="experience">
+          <option value="worst">WORST</option>
+          <option value="bad">BAD</option>
+          <option value="good">GOOD</option>
+          <option value="better">BETTER</option>
+          <option value="best">BEST</option>
+        </td>
+        </tr>
+
+        <tr>
+          <td>What did you do during this period</td>
+          <td><input type="checkbox" name="qw" >Binge watching<br>
+              <input type="checkbox" name="qw" >Office work<br>
+              <input type="checkbox" name="qw" >Helping at home<br>
+              <input type="checkbox" name="qw" >Cooking</td>
+        </tr>
+
+
+        <tr>
+          <td>Share few words about what people should do during this tough period</td>
+          <td><textarea name="words" id="addd" rows="8" cols="40"></textarea></td>
+        </tr>
+
+        <tr>
+          <td>When will this lockdown end</td>
+          <td><input type="radio" name="qwerty" >1-2 months<br>
+              <input type="radio" name="qwerty" >3-6 months<br>
+              <input type="radio" name="qwerty" >7-9 months<br>
+              <input type="radio" name="qwerty" >10-12 months<br>
+              <input type="radio" name="qwerty" >12+ months</td>
+        </tr>
+
+        <tr>
+          <td>Which of the following you think is more effective to prevent COVID-19</td>
+          <td><input type="checkbox" name="wert" >Wear mask<br>
+              <input type="checkbox" name="wert" >Use of sanitizer regularly<br>
+              <input type="checkbox" name="wert" >Social distancing<br></td>
+        </tr>
+
+        <tr>
+          <td><input type="submit" name="submit" value="Submit"></td>
+          <td><input type="reset" name="reset" value="Clear"></td>
+        </tr>
+    </form>
+  </body>
+</html>

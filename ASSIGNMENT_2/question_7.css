@@ -1,0 +1,14 @@
+section{
+  display:inline-block;
+  border: 1px solid orange;
+}
+
+div{
+  display:inline-block;
+  border:2px dotted green;
+}
+
+body{
+  display:inline-block;
+  border: 2px solid grey;
+}

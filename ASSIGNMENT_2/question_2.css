@@ -1,0 +1,20 @@
+body{
+  background-color: lightcyan;
+}
+  h1{
+  font-family: cursive;
+}
+
+h2{
+  font-family: cursive;
+  text-decoration: line-through;
+}
+
+h3{
+  font-family: cursive;
+  text-decoration: underline;
+}
+
+h4{
+  font-family: cursive;
+}

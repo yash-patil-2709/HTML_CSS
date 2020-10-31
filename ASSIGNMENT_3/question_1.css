@@ -1,0 +1,76 @@
+body{
+  background-image: url("background_image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img{
+  margin-left:425px;
+}
+
+#one{
+  margin-left:475px;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+#two{
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight:bold;
+  font-variant: inherit;
+}
+
+#three{
+  font-weight: normal;
+  font-style: italic;
+}
+
+#four{
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight:bold;
+  font-variant: inherit;
+}
+
+ul{
+  display:inline-block;
+  list-style-type: circle;
+  border: 2px solid black;
+}
+
+#five{
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight:bold;
+  font-variant: inherit;
+}
+
+table, tr, td, th{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+a:hover{
+  color: purple;
+}
+
+a:visited{
+  color:green;
+}
+
+footer{
+  width:100%;
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}

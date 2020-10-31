@@ -1,0 +1,19 @@
+body{
+  background-image: url("lockdown.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.one{
+  background-color: lightgrey;
+  margin-left: 500px;
+  margin-right: 500px;
+  border: 2px solid black;
+  display: block;
+}
+
+table, td,tr{
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+}

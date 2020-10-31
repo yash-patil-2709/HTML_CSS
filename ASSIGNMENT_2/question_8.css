@@ -1,0 +1,26 @@
+.one{
+  background-color: lightcyan;
+  display:block;
+  border:5px solid black;
+}
+
+.two{
+  background-color: lightcyan;
+  display:block;
+  border:4px solid black;
+}
+
+.three{
+  background-color: lightcyan;
+  display:block;
+  border:2px solid black;
+}
+
+body{
+  display:block;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border:1px solid black;
+}
